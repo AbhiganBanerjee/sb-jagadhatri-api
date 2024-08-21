@@ -1,0 +1,8 @@
+in\spring\JagadhatriPujaSpringReactAppApplication.class
+in\spring\document\Jagadhatri.class
+in\spring\services\JagadhatriServiceImpl.class
+in\spring\filter\RefreshHeaderFilter.class
+in\spring\services\JagadhatriService.class
+in\spring\rest\JagadhatriRestController.class
+in\spring\config\CorsConfig.class
+in\spring\repo\JagadhatriRepository.class
