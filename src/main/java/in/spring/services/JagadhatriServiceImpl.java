@@ -31,7 +31,7 @@ public class JagadhatriServiceImpl implements JagadhatriService {
 	@Override
 	public List<String> getAllYears() {
 		//Create a String array containing all years
-		String[] years = {"2016","2017","2018","2019","2020","2021","2022","2023"};
+		String[] years = {"2016","2017","2018","2019","2020","2021","2022","2023","2024"};
 	
 		//Make this String[] as a list and return it
 		return Arrays.asList(years);
