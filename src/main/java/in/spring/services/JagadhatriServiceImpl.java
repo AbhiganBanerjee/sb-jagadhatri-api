@@ -30,10 +30,10 @@ public class JagadhatriServiceImpl implements JagadhatriService {
 
 	@Override
 	public List<String> getAllYears() {
-		//Create a String array containing all years
+		//Define a Array of Strings containing all the years of Puja, for ex - 2025
 		String[] years = {"2016","2017","2018","2019","2020","2021","2022","2023","2024","2025"};
 	
-		//Make this String[] as a list and return it
+		//Now, pass the years array as argument to asList to convert them to List<String>
 		return Arrays.asList(years);
 	}
 
