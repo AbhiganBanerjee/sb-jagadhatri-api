@@ -20,4 +20,7 @@ public interface JagadhatriService {
 	
 	//Create a method to get images based on year
 	List<Jagadhatri> getPicsByYear(String year);
+	
+	//Create  a method to Get Pics By ASC order of Year
+	List<Jagadhatri> getPicsByYearAsc();
 }

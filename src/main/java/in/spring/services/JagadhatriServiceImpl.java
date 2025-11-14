@@ -47,4 +47,10 @@ public class JagadhatriServiceImpl implements JagadhatriService {
 			return repo.findByYear(year);
 		}
 	}
+	
+@Override
+	public List<Jagadhatri> getPicsByYearAsc() {
+		//Call the Repo layer method, to retrieve pics based on Year ASC order
+		return repo.findAllByOrderByYearAsc();
+	}
 }

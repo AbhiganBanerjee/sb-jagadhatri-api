@@ -35,11 +35,11 @@ public class JagadhatriRestController {
 		}
 	}
 	
-	//Create a GET Mapped method to get all Pics
+	//Create a GET Mapped method to get all Pics by ASC order of year
 	@GetMapping("/getPics")
 	public List<Jagadhatri> getPics(){
 		//Call the service getall method
-		return service.getAllPics();
+		return service.getPicsByYearAsc();
 	}
 	
 	//Create a GET Mapped method to get all the years

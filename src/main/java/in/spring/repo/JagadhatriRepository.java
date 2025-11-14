@@ -8,4 +8,7 @@ import java.util.List;
 
 public interface JagadhatriRepository extends MongoRepository<Jagadhatri, String> {
 	List<Jagadhatri> findByYear(String year);
+	
+	//Define another Method to findAll pics based on ASC order of Year
+	List<Jagadhatri> findAllByOrderByYearAsc();
 }
